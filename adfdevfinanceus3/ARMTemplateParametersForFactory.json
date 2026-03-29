@@ -1,0 +1,135 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevfinanceus3"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_CSVFILES_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_GETMETADETA_FILTER_COPY_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_GETMETADETA_FILTER_COPY_SOURCE_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_MULTIFILE_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_REST_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_SQL_MIGRATION_accountKey": {
+			"value": ""
+		},
+		"LS_BLOB_EXCEL_connectionString": {
+			"value": ""
+		},
+		"LS_BULKCSV_accountKey": {
+			"value": ""
+		},
+		"LS_ONPREM_SQL_password": {
+			"value": ""
+		},
+		"LS_SQLLOOKUP_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevfinance003.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevfinance003.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://keyvaultprojectdata3.vault.azure.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "azuresqldatabase003.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "admindata"
+		},
+		"LS_ADLS_CSVFILES_properties_typeProperties_url": {
+			"value": "https://adlsdevfinance003.dfs.core.windows.net/"
+		},
+		"LS_ADLS_GETMETADETA_FILTER_COPY_properties_typeProperties_url": {
+			"value": "https://adlsdevfinance003.dfs.core.windows.net/"
+		},
+		"LS_ADLS_GETMETADETA_FILTER_COPY_SOURCE_properties_typeProperties_url": {
+			"value": "https://adlsdevfinance003.dfs.core.windows.net/"
+		},
+		"LS_ADLS_MULTIFILE_properties_typeProperties_url": {
+			"value": "https://adlsdevbankus003.dfs.core.windows.net/"
+		},
+		"LS_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevfinance003.dfs.core.windows.net/"
+		},
+		"LS_ADLS_REST_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevfinance003.dfs.core.windows.net/"
+		},
+		"LS_ADLS_SQL_MIGRATION_properties_typeProperties_url": {
+			"value": "https://adlsdevbankus003.dfs.core.windows.net/"
+		},
+		"LS_BULKCSV_properties_typeProperties_url": {
+			"value": "https://adlsdevbankus003.dfs.core.windows.net/"
+		},
+		"LS_ONPREM_SQL_properties_typeProperties_server": {
+			"value": "Areef"
+		},
+		"LS_ONPREM_SQL_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2019"
+		},
+		"LS_ONPREM_SQL_properties_typeProperties_userName": {
+			"value": "AreefShaik78.Azure"
+		},
+		"LS_REST_PARQUET_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_SQLLOOKUP_properties_typeProperties_server": {
+			"value": "AREEF"
+		},
+		"LS_SQLLOOKUP_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2019"
+		},
+		"LS_SQLLOOKUP_properties_typeProperties_userName": {
+			"value": "AreefShaik78.Azure"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_server": {
+			"value": "AREEF"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2026"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_userName": {
+			"value": "AreefShaik78.Azure"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "AREEF"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "AreefShaik78.Azure"
+		}
+	}
+}
