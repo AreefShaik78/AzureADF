@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQLLOOKUP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "AREEF",
+			"database": "AdventureWorksDW2019",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "AreefShaik78.Azure",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyZGU2MzEyYS00NmM0LTRlOWQtOTU0OC1lMjJlMWZlOTE1MmEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

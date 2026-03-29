@@ -1,0 +1,24 @@
+{
+	"name": "TRRGSCHEDULE_ECOMCSV_TO_PARQUET",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CPY_ACTIVITY_MULTIPLE_FILES_copy1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-03-28T03:05:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
